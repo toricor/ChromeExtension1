@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Show PDF links",
+  "version": "1.0",
+  "description": "Make link of PDF files",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "icons" : {
+    "128": "icon.png"
+  }
+}
