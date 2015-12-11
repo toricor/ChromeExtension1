@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "YouTube/IMSLP",
+  "name": "IMSLP music search",
   "version": "1.0",
-  "description": "search for 'composer' + 'music title'",
+  "description": "search YouTube for 'composer' + 'music title' ",
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon":  "icon.png",
-	"default_title": "YouTube/IMSLP"
+    "default_title": "IMSLP music search"
   },
   "permissions": [
     "tabs",
