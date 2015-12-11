@@ -1,15 +1,16 @@
 {
   "manifest_version": 2,
-  "name": "Show PDF links",
+  "name": "search YouTube from IMSLP",
   "version": "1.0",
-  "description": "Make link of PDF files",
+  "description": "search 'youtube' + 'composer' + 'music title'",
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon":  "icon.png",
-	"default_title": "Show PDF links"
+	"default_title": "YouTube Search from IMSLP"
   },
   "permissions": [
-    "tabs"
+    "tabs",
+	"http://imslp.org/wiki/*"
   ],
   "icons" : {
     "128": "icon.png"
